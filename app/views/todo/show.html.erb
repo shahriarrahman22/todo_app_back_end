@@ -1,10 +1,8 @@
- <input type="checkbox"/>
-         <hl>Play Games</hl>
-        <h2><%= @todo_description %></h2>
-        <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %> Pomodoros</span>
-        <h3> Todo #<%= params[:id]%></h3>
-         <input type="checkbox"/>
-        <a href="#">Edit</a>
-        <a href="#">Delete</a>
-        <a href="index.html">go gack...</a>
+<h2><%= @todo.description %></h2>
+<h3> Todo#<%= params[:id]%></h3>
+
+<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> Pomodoros</span>
+<a href="#">Edit</a>
+<a href="#">Delete</a>
+<a href="index.html">go gack...</a>
         
